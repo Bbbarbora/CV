@@ -1,0 +1,22 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    padding: 40px;
+
+}
+div{
+    display: inline-block;
+    width: 300px;
+}
+
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    color: firebrick;
+    display: block;
+    height: 200px;
+    padding-top: 100px;
+}
