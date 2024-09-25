@@ -1,22 +1,105 @@
 body, html{
     margin: 0;
     padding: 0;
+    background: #bada88;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, p, div {
+    margin: 0;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+section {
+    margin: 0;
+    padding: 20px 15%;
+
 }
 
 img{
-    padding: 40px;
+    padding: 20px;
 
 }
 div{
-    display: inline-block;
-    width: 45%;
+    /* display: inline-block; */
+    
 }
 
-h1{
+/*h1{
     text-align: center;
     background-color: aquamarine;
     color: firebrick;
     display: block;
     height: 200px;
     padding-top: 100px;
+}*/
+.footer{
+    background-color: #00bdbd;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0
+    
+}
+.footer a{
+    color: #ffffff;
+}
+.navbar{
+    background-color: #00bdbd;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    background: #262b37;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 45px;
+}
+.navbar a:hover{
+    background-color: #219e9e ;
+}
+.navbar a:focus{
+    background-color: aliceblue;
+}
+.textabout{
+    background-color: #00bdbd;
+    color: #ffffff;
+}
+.heading{
+    width: 100%;
+    color: #ffffff;
+    background-color: #00bdbd;
+    text-align: center;
+}
+.profile-photo{
+    border-radius: 50%;
+    margin-top: 20px;
+    float: right;
+    width: 180px;
+}
+
+.work, .courses{
+    background: #f3f3f3;
+  
+}
+.work h2, .courses h2{
+    color: #ff675f;
+
+}
+.education p{
+    color: #474d5d;
+}
+.education h4, h5{
+    color: #474d5d;
 }
