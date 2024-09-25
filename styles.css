@@ -18,11 +18,10 @@ section {
     padding: 20px 15%;
 
 }
-
-img{
-    padding: 20px;
-
+.podtext{
+    text-align: center;
 }
+
 div{
     /* display: inline-block; */
     
@@ -49,7 +48,7 @@ div{
 }
 .navbar{
     background-color: #00bdbd;
-    color: #ffffff;
+    color: #c3c8d6;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -62,7 +61,7 @@ div{
 }
 .navbar a{
     display: inline-block;
-    color: #ffffff;
+    color: #c3c8d6;
     text-decoration: none;
     padding: 20px 45px;
 }
@@ -72,7 +71,7 @@ div{
 .navbar a:focus{
     background-color: aliceblue;
 }
-.textabout{
+.about-me{
     background-color: #00bdbd;
     color: #ffffff;
 }
@@ -84,9 +83,9 @@ div{
 }
 .profile-photo{
     border-radius: 50%;
-    margin-top: 20px;
-    float: right;
-    width: 180px;
+    width: 200px;
+    float:right;
+    vertical-align: middle;
 }
 
 .work, .courses{
