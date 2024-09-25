@@ -102,3 +102,15 @@ div{
 .education h4, h5{
     color: #474d5d;
 }
+.contact p, .contact a{
+    color: #93959c;
+    font-size: 17px;
+    line-height: 19px;
+    padding-bottom: 14px;
+}
+.contact{
+    background-color: #474d5d
+}
+.contact h3, h2{
+    color: #ffffff;
+}
