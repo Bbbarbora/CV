@@ -3,6 +3,8 @@ body, html{
     padding: 0;
     background: #bada88;
     line-height: 1.5;
+    font-size: 18px;
+    font-family:'Open Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, p, div {
     margin: 0;
@@ -16,31 +18,23 @@ h2{
 section {
     margin: 0;
     padding: 20px 15%;
+    padding-bottom: 40px;
 
 }
 .podtext{
     text-align: center;
 }
 
-div{
-    /* display: inline-block; */
-    
+h1{
+    font-weight: 600;
+    font-size: 50px;
 }
-
-/*h1{
-    text-align: center;
-    background-color: aquamarine;
-    color: firebrick;
-    display: block;
-    height: 200px;
-    padding-top: 100px;
-}*/
 .footer{
     background-color: #00bdbd;
     color: #ffffff;
     font-size: 20px;
     text-align: center;
-    padding: 20px 0
+    padding: 10px 0;
     
 }
 .footer a{
@@ -74,6 +68,7 @@ div{
 .about-me{
     background-color: #00bdbd;
     color: #ffffff;
+    padding-bottom: 200px;
 }
 .heading{
     width: 100%;
@@ -83,9 +78,10 @@ div{
 }
 .profile-photo{
     border-radius: 50%;
-    width: 200px;
+    width: 250px;
     float:right;
     vertical-align: middle;
+    margin: 0 0 20px 20px;   
 }
 
 .work, .courses{
@@ -96,12 +92,20 @@ div{
     color: #ff675f;
 
 }
-.education p{
+.education p, .education h4, .education h5,
+.courses p, .courses h4, .courses h5
+.skills p, .skills h4, .skills h5 
+.work p, .work h4, .work h5{
     color: #474d5d;
 }
-.education h4, h5{
-    color: #474d5d;
+
+.kurzy{
+    background-color: #d5d5d5;
+    border-radius: 1%;
+    margin:20px 0;
+    
 }
+
 .contact p, .contact a{
     color: #93959c;
     font-size: 17px;
@@ -113,4 +117,13 @@ div{
 }
 .contact h3, h2{
     color: #ffffff;
+}
+table{
+    border: #262b37 solid;
+    font: 32px sans-serif;
+   }
+th, td{
+    text-align: left;
+    border-bottom: 1px solid #756158;
+    padding: 10px 0;
 }
